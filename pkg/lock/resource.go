@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package lock
@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/congcongke/helm-registry/pkg/log"
 )
 
 // deadline stores the nanoseconds of the deadline.

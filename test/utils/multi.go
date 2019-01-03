@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package utils
@@ -7,7 +7,7 @@ package utils
 import (
 	"reflect"
 
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/congcongke/helm-registry/pkg/log"
 )
 
 // Multicase test with multiple test cases

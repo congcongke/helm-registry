@@ -1,10 +1,10 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package orchestration
 
-import "github.com/caicloud/helm-registry/pkg/errors"
+import "github.com/congcongke/helm-registry/pkg/errors"
 
 // Package describes infomation of a chart in registry
 type Package struct {

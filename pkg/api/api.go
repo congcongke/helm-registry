@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package api
@@ -7,8 +7,8 @@ package api
 import (
 	"time"
 
-	"github.com/caicloud/helm-registry/pkg/api/v1"
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/congcongke/helm-registry/pkg/api/v1"
+	"github.com/congcongke/helm-registry/pkg/log"
 	"github.com/emicklei/go-restful"
 )
 

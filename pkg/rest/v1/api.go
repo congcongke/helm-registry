@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package v1
@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/caicloud/helm-registry/pkg/log"
-	"github.com/caicloud/helm-registry/pkg/rest"
+	"github.com/congcongke/helm-registry/pkg/log"
+	"github.com/congcongke/helm-registry/pkg/rest"
 )
 
 // APIVersion defines api version

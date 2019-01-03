@@ -1,4 +1,4 @@
-FROM cargo.caicloud.io/caicloud/debian:jessie
+FROM cargo.congcongke.io/congcongke/debian:jessie
 
 RUN echo "Asia/Shanghai" > /etc/timezone
 

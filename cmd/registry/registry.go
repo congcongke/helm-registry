@@ -1,12 +1,12 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package main
 
 import (
-	"github.com/caicloud/helm-registry/cmd/registry/cmd"
-	_ "github.com/caicloud/helm-registry/pkg/storage/simple"
+	"github.com/congcongke/helm-registry/cmd/registry/cmd"
+	_ "github.com/congcongke/helm-registry/pkg/storage/simple"
 	_ "github.com/docker/distribution/registry/storage/driver/filesystem"
 )
 

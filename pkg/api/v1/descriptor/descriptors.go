@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package descriptor
@@ -7,7 +7,7 @@ package descriptor
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/api/definition"
+	"github.com/congcongke/helm-registry/pkg/api/definition"
 )
 
 // Descriptors describes api info

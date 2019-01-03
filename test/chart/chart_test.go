@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package chart_test
@@ -10,9 +10,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/caicloud/helm-registry/pkg/log"
-	"github.com/caicloud/helm-registry/pkg/rest/v1"
-	"github.com/caicloud/helm-registry/test/utils"
+	"github.com/congcongke/helm-registry/pkg/log"
+	"github.com/congcongke/helm-registry/pkg/rest/v1"
+	"github.com/congcongke/helm-registry/test/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"k8s.io/helm/pkg/chartutil"

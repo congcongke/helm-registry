@@ -1,4 +1,4 @@
-def IMAGE_TAG = "caicloud/helm-registry:${params.imageTag}"
+def IMAGE_TAG = "congcongke/helm-registry:${params.imageTag}"
 
 podTemplate(
     cloud: 'dev-cluster',
@@ -9,14 +9,14 @@ podTemplate(
     containers: [
         containerTemplate(
             name: 'jnlp',
-            image: "cargo.caicloud.io/circle/jnlp:2.62",
+            image: "cargo.congcongke.io/circle/jnlp:2.62",
             alwaysPullImage: true,
             command: '',
             args: '${computer.jnlpmac} ${computer.name}',
         ),
         containerTemplate(
             name: 'dind', 
-            image: "cargo.caicloud.io/caicloud/docker:17.03-dind", 
+            image: "cargo.congcongke.io/congcongke/docker:17.03-dind", 
             alwaysPullImage: true,
             ttyEnabled: true,
             command: '', 
@@ -25,7 +25,7 @@ podTemplate(
         ),
         containerTemplate(
             name: 'golang',
-            image: "cargo.caicloud.io/caicloud/golang-docker:1.8.1-17.05",
+            image: "cargo.congcongke.io/congcongke/golang-docker:1.8.1-17.05",
             alwaysPullImage: true,
             ttyEnabled: true,
             command: '',
@@ -33,7 +33,7 @@ podTemplate(
             envVars: [
                 containerEnvVar(key: 'DOCKER_HOST', value: 'unix:///home/jenkins/docker.sock'),
                 containerEnvVar(key: 'DOCKER_API_VERSION', value: '1.26'),
-                containerEnvVar(key: 'WORKDIR', value: '/go/src/github.com/caicloud/helm-registry')
+                containerEnvVar(key: 'WORKDIR', value: '/go/src/github.com/congcongke/helm-registry')
             ],
         ),
     ]
@@ -81,10 +81,10 @@ podTemplate(
                 }
                 if (params.autoGitTag) {
                     echo "auto git tag: " + params.imageTag
-                    withCredentials ([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'caicloud-bot', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]){
-                        sh("git config --global user.email \"info@caicloud.io\"")
+                    withCredentials ([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'congcongke-bot', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]){
+                        sh("git config --global user.email \"info@congcongke.io\"")
                         sh("git tag -a $imageTag -m \"$tagDescribe\"")
-                        sh("git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/caicloud/helm-registry $imageTag")
+                        sh("git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/congcongke/helm-registry $imageTag")
                    }
                 } 
             }

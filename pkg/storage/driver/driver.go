@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package driver
@@ -7,7 +7,8 @@ package driver
 import (
 	"io"
 
-	"github.com/docker/distribution/context"
+	"context"
+
 	storageDriver "github.com/docker/distribution/registry/storage/driver"
 )
 

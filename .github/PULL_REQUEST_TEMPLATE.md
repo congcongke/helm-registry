@@ -9,7 +9,7 @@ Add your description
 Fixes #
 
 Reference to #
-<!-- 填在 Fixes，PR 合并就会关 issue。填在 Reference to 会关联 issue，不会联动关闭，caicloud/quality 请用这个。-->
+<!-- 填在 Fixes，PR 合并就会关 issue。填在 Reference to 会关联 issue，不会联动关闭，congcongke/quality 请用这个。-->
 
 **Special notes for your reviewer**:
 
@@ -36,9 +36,9 @@ NONE
 
 <!--  Thanks for sending a pull request! Here are some tips:
 
-1. https://github.com/caicloud/engineering/blob/master/docs/review_conventions.md  <-- what is the review process looks like
-2. https://github.com/caicloud/engineering/blob/master/docs/commit_conventions.md  <-- how to structure your git commit
-3. https://github.com/caicloud/engineering/blob/master/docs/caicloud_bot.md        <-- how to work with caicloud bot
+1. https://github.com/congcongke/engineering/blob/master/docs/review_conventions.md  <-- what is the review process looks like
+2. https://github.com/congcongke/engineering/blob/master/docs/commit_conventions.md  <-- how to structure your git commit
+3. https://github.com/congcongke/engineering/blob/master/docs/caicloud_bot.md        <-- how to work with congcongke bot
 
 Other tips from Kubernetes cmomunity:
 

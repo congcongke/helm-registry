@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package orchestration
@@ -10,7 +10,7 @@ import (
 	"compress/gzip"
 	"path/filepath"
 
-	"github.com/caicloud/helm-registry/pkg/errors"
+	"github.com/congcongke/helm-registry/pkg/errors"
 	"github.com/ghodss/yaml"
 	"k8s.io/helm/pkg/proto/hapi/chart"
 )

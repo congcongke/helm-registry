@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package rest
@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/caicloud/helm-registry/pkg/errors"
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/congcongke/helm-registry/pkg/errors"
+	"github.com/congcongke/helm-registry/pkg/log"
 )
 
 // UniversalClient implements a basic registry client

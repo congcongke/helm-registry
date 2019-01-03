@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package cmd
@@ -7,8 +7,8 @@ package cmd
 import (
 	"io/ioutil"
 
-	"github.com/caicloud/helm-registry/pkg/common"
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/congcongke/helm-registry/pkg/common"
+	"github.com/congcongke/helm-registry/pkg/log"
 	"github.com/ghodss/yaml"
 )
 

@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package cmd
@@ -7,9 +7,9 @@ package cmd
 import (
 	"time"
 
-	"github.com/caicloud/helm-registry/pkg/api"
-	"github.com/caicloud/helm-registry/pkg/common"
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/congcongke/helm-registry/pkg/api"
+	"github.com/congcongke/helm-registry/pkg/common"
+	"github.com/congcongke/helm-registry/pkg/log"
 	"github.com/emicklei/go-restful"
 	"github.com/go-openapi/spec"
 	"github.com/spf13/cobra"
@@ -68,7 +68,7 @@ func enrichSwaggerObject(swo *spec.Swagger) {
 			Description: "Helm Registry stores helm charts in a hierarchy storage structure and provides a function to orchestrate charts from existing ones.",
 			Contact: &spec.ContactInfo{
 				Name:  "Guowei",
-				Email: "guowei@caicloud.io",
+				Email: "guowei@congcongke.io",
 			},
 			Version: version,
 		},

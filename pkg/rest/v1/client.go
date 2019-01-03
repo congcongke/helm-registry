@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package v1
@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/caicloud/helm-registry/pkg/api/models"
-	"github.com/caicloud/helm-registry/pkg/rest"
-	"github.com/caicloud/helm-registry/pkg/storage"
+	"github.com/congcongke/helm-registry/pkg/api/models"
+	"github.com/congcongke/helm-registry/pkg/rest"
+	"github.com/congcongke/helm-registry/pkg/storage"
 	"k8s.io/helm/pkg/proto/hapi/chart"
 )
 

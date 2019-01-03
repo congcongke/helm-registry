@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package space_test
@@ -8,9 +8,9 @@ import (
 	"os"
 	"sort"
 
-	"github.com/caicloud/helm-registry/pkg/rest"
-	"github.com/caicloud/helm-registry/pkg/rest/v1"
-	"github.com/caicloud/helm-registry/test/utils"
+	"github.com/congcongke/helm-registry/pkg/rest"
+	"github.com/congcongke/helm-registry/pkg/rest/v1"
+	"github.com/congcongke/helm-registry/test/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package simple
@@ -7,7 +7,7 @@ package simple
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/errors"
+	"github.com/congcongke/helm-registry/pkg/errors"
 )
 
 var (

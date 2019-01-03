@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package simple
@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/caicloud/helm-registry/pkg/common"
-	"github.com/caicloud/helm-registry/pkg/lock"
-	"github.com/caicloud/helm-registry/pkg/log"
-	"github.com/caicloud/helm-registry/pkg/storage"
-	"github.com/caicloud/helm-registry/pkg/storage/driver"
+	"github.com/congcongke/helm-registry/pkg/common"
+	"github.com/congcongke/helm-registry/pkg/lock"
+	"github.com/congcongke/helm-registry/pkg/log"
+	"github.com/congcongke/helm-registry/pkg/storage"
+	"github.com/congcongke/helm-registry/pkg/storage/driver"
 	"k8s.io/helm/pkg/chartutil"
 )
 

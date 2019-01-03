@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package types
@@ -7,7 +7,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/caicloud/helm-registry/pkg/errors"
+	"github.com/congcongke/helm-registry/pkg/errors"
 )
 
 // Save describes the info of a chart

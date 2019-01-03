@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package v1
@@ -7,7 +7,7 @@ package v1
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/storage"
+	"github.com/congcongke/helm-registry/pkg/storage"
 )
 
 // APIFetchChartMetadata defines an api of fetching chart metadata

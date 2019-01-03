@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package orchestration
@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/caicloud/helm-registry/pkg/common"
-	"github.com/caicloud/helm-registry/pkg/errors"
-	"github.com/caicloud/helm-registry/pkg/storage"
+	"github.com/congcongke/helm-registry/pkg/common"
+	"github.com/congcongke/helm-registry/pkg/errors"
+	"github.com/congcongke/helm-registry/pkg/storage"
 	"k8s.io/helm/pkg/chartutil"
 	"k8s.io/helm/pkg/proto/hapi/chart"
 )

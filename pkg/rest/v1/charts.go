@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package v1
@@ -7,7 +7,7 @@ package v1
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/api/models"
+	"github.com/congcongke/helm-registry/pkg/api/models"
 )
 
 // APIListCharts defines an api of listing charts

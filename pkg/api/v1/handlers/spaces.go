@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package handlers
@@ -8,8 +8,8 @@ import (
 	"context"
 	"path"
 
-	"github.com/caicloud/helm-registry/pkg/api/models"
-	"github.com/caicloud/helm-registry/pkg/common"
+	"github.com/congcongke/helm-registry/pkg/api/models"
+	"github.com/congcongke/helm-registry/pkg/common"
 )
 
 // ListSpaces lists spaces

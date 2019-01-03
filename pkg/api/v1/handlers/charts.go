@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package handlers
@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/caicloud/helm-registry/pkg/api/models"
-	"github.com/caicloud/helm-registry/pkg/common"
-	"github.com/caicloud/helm-registry/pkg/errors"
-	"github.com/caicloud/helm-registry/pkg/orchestration"
+	"github.com/congcongke/helm-registry/pkg/api/models"
+	"github.com/congcongke/helm-registry/pkg/common"
+	"github.com/congcongke/helm-registry/pkg/errors"
+	"github.com/congcongke/helm-registry/pkg/orchestration"
 	"gopkg.in/yaml.v2"
 )
 

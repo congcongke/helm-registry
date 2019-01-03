@@ -1,5 +1,5 @@
 /*
-Copyright 2017 caicloud authors. All rights reserved.
+Copyright 2017 congcongke authors. All rights reserved.
 */
 
 package descriptor
@@ -7,10 +7,10 @@ package descriptor
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/api/definition"
-	"github.com/caicloud/helm-registry/pkg/api/models"
-	"github.com/caicloud/helm-registry/pkg/api/v1/handlers"
-	"github.com/caicloud/helm-registry/pkg/common"
+	"github.com/congcongke/helm-registry/pkg/api/definition"
+	"github.com/congcongke/helm-registry/pkg/api/models"
+	"github.com/congcongke/helm-registry/pkg/api/v1/handlers"
+	"github.com/congcongke/helm-registry/pkg/common"
 )
 
 func init() {
