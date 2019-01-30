@@ -418,7 +418,7 @@ func (v *Version) PutContent(ctx context.Context, data []byte) error {
 	// Validate chart
 	chart, err := chartutil.LoadArchive(bytes.NewReader(data))
 	if err != nil {
-		return ErrorParamTypeError.Format("chart", "gzip", "unknown")
+		return ErrorParamTypeError.Format("chart", "gzip", err.Error())
 	}
 	// Coalesce metadata
 	metadata, err := storage.CoalesceMetadata(chart)
